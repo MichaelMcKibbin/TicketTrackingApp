@@ -1,6 +1,14 @@
-# ️TicketTracking
+# ️Ticket Tracking
+<p align="center">
+  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg" alt="License: CC BY-NC 4.0">
+  <img src="https://img.shields.io/badge/Java-21-blue.svg" alt="Java Version">
+  <img src="https://img.shields.io/badge/JavaFX-21-blue.svg" alt="JavaFX Version">
+  <img src="https://img.shields.io/badge/Build-Maven-informational.svg" alt="Maven Build">
+  <img src="https://img.shields.io/github/last-commit/MichaelMcKibbin/TicketTrackingApp" alt="Last Commit">
+  <img src="https://img.shields.io/github/languages/top/MichaelMcKibbin/TicketTrackingApp" alt="Top Language">
+</p>
 
-A desktop **Trouble Ticket Tracking System** built in **Java 17** and **JavaFX**, with JSON persistence, ticket filtering, comment history, visual priority indicators, and a clean UI.  
+A desktop **Trouble Ticket Tracking System** built in **Java 17/21** and **JavaFX**, with JSON persistence, ticket filtering, comment history, visual priority indicators, and a clean UI.  
 This project is ideal for learning JavaFX, MVC patterns, and desktop data management.
 
 ---

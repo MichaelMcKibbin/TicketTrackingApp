@@ -1,6 +1,6 @@
 # Manual GUI Testing Checklist
 
-This is a practical, realistic checklist for manually testing the **TicketTracking** JavaFX application before each release.
+This is a realistic checklist for manually testing the **TicketTracking** JavaFX application before each release.
 
 ---
 
