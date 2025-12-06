@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "title": "Login not working",
+    "description": "User reports an issue with the login page. Credentials are correct but login fails.",
+    "status": "IN_PROGRESS",
+    "priority": "MEDIUM",
+    "createdAt": "2025-05-27T11:08:05.445374",
+    "updatedAt": null,
+    "assignedTo": "John"
+  },
+  {
+    "id": "2",
+    "title": "Page crashes on submit",
+    "description": "Form submission on checkout causes a page crash intermittently.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "createdAt": "2025-06-04T13:18:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Liam"
+  },
+  {
+    "id": "3",
+    "title": "User cannot reset password",
+    "description": "Reset password form gives an error saying 'token expired'.",
+    "status": "NEW",
+    "priority": "HIGH",
+    "createdAt": "2025-06-02T13:41:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Michael"
+  },
+  {
+    "id": "4",
+    "title": "API returns 500 error",
+    "description": "Backend API endpoint /v1/orders returns a 500 error when queried with date range.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "createdAt": "2025-05-31T04:13:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Liam"
+  },
+  {
+    "id": "5",
+    "title": "UI layout broken on mobile",
+    "description": "Layout of the main dashboard looks scrambled when viewed on iPhone.",
+    "status": "RESOLVED",
+    "priority": "LOW",
+    "createdAt": "2025-05-30T13:40:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Michael"
+  },
+  {
+    "id": "6",
+    "title": "Unable to upload file",
+    "description": "Users report being unable to upload profile pictures.",
+    "status": "ON_HOLD",
+    "priority": "MEDIUM",
+    "createdAt": "2025-06-05T02:52:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Priya"
+  },
+  {
+    "id": "7",
+    "title": "Notification emails not sent",
+    "description": "Expected notification emails for comments are not being sent.",
+    "status": "NEW",
+    "priority": "LOW",
+    "createdAt": "2025-06-01T12:04:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Sarah"
+  },
+  {
+    "id": "8",
+    "title": "Button not responding",
+    "description": "The 'Submit' button on the feedback form does not respond to clicks.",
+    "status": "NEW",
+    "priority": "HIGH",
+    "createdAt": "2025-06-06T23:02:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Liam"
+  },
+  {
+    "id": "9",
+    "title": "Search results incorrect",
+    "description": "Search function returns results unrelated to query terms.",
+    "status": "ON_HOLD",
+    "priority": "MEDIUM",
+    "createdAt": "2025-05-30T17:36:05.445374",
+    "updatedAt": null,
+    "assignedTo": "John"
+  },
+  {
+    "id": "10",
+    "title": "Data export missing fields",
+    "description": "Exported CSV does not include the 'email' and 'status' fields.",
+    "status": "NEW",
+    "priority": "HIGH",
+    "createdAt": "2025-05-30T13:33:05.445374",
+    "updatedAt": null,
+    "assignedTo": "John"
+  },
+  {
+    "id": "11",
+    "title": "Slow page load",
+    "description": "Reports of the analytics page taking over 10 seconds to load.",
+    "status": "RESOLVED",
+    "priority": "MEDIUM",
+    "createdAt": "2025-06-03T09:03:05.445374",
+    "updatedAt": null,
+    "assignedTo": "John"
+  },
+  {
+    "id": "12",
+    "title": "Date picker not working",
+    "description": "Calendar widget does not let users select future dates.",
+    "status": "CLOSED",
+    "priority": "MEDIUM",
+    "createdAt": "2025-06-01T02:13:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Sarah"
+  },
+  {
+    "id": "13",
+    "title": "Forgot password not triggering email",
+    "description": "Forgot password form seems to accept input but no email is received.",
+    "status": "NEW",
+    "priority": "MEDIUM",
+    "createdAt": "2025-06-04T05:14:05.445374",
+    "updatedAt": null,
+    "assignedTo": "John"
+  },
+  {
+    "id": "14",
+    "title": "Profile update fails",
+    "description": "Editing the user profile causes the server to respond with 400 error.",
+    "status": "ON_HOLD",
+    "priority": "MEDIUM",
+    "createdAt": "2025-06-06T03:35:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Priya"
+  },
+  {
+    "id": "15",
+    "title": "New user not showing in list",
+    "description": "Newly registered users are not appearing in the admin dashboard.",
+    "status": "CLOSED",
+    "priority": "HIGH",
+    "createdAt": "2025-06-01T16:54:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Michael"
+  },
+  {
+    "id": "16",
+    "title": "Settings not saving",
+    "description": "Changes in settings menu do not persist after reload.",
+    "status": "NEW",
+    "priority": "HIGH",
+    "createdAt": "2025-06-03T19:04:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Priya"
+  },
+  {
+    "id": "17",
+    "title": "Graph not rendering",
+    "description": "Graphs on the reporting tab are blank or show incorrect data.",
+    "status": "ON_HOLD",
+    "priority": "HIGH",
+    "createdAt": "2025-06-07T00:34:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Priya"
+  },
+  {
+    "id": "18",
+    "title": "Dark mode broken",
+    "description": "Dark mode toggle causes colors to invert incorrectly.",
+    "status": "NEW",
+    "priority": "HIGH",
+    "createdAt": "2025-06-03T20:08:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Sarah"
+  },
+  {
+    "id": "19",
+    "title": "Session times out too quickly",
+    "description": "Sessions time out in less than 5 minutes even when active.",
+    "status": "CLOSED",
+    "priority": "LOW",
+    "createdAt": "2025-06-06T14:16:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Liam"
+  },
+  {
+    "id": "20",
+    "title": "Dropdown overlaps text",
+    "description": "Dropdown menu in the header overlaps with page content below.",
+    "status": "CLOSED",
+    "priority": "LOW",
+    "createdAt": "2025-05-30T23:35:05.445374",
+    "updatedAt": null,
+    "assignedTo": "Michael"
+  }
+]

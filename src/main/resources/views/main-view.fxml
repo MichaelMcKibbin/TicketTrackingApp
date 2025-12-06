@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.tickettracking.MainViewController"
+      stylesheets="@styles.css">
+    <MenuBar>
+        <Menu text="File">
+            <MenuItem text="Load" onAction="#loadTickets"/>
+            <MenuItem text="Save" onAction="#save"/>
+            <MenuItem text="Exit" onAction="#exitApplication"/>
+        </Menu>
+    </MenuBar>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <padding>
+            <Insets top="5" right="10" bottom="5" left="5"/>
+        </padding>
+        <TextField fx:id="searchField" promptText="Search tickets..."/>
+        <ComboBox fx:id="statusFilter" promptText="Status"/>
+        <ComboBox fx:id="priorityFilter" promptText="Priority"/>
+        <Button text="New Ticket" onAction="#createNewTicket"/>
+    </HBox>
+
+    <TableView fx:id="ticketTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID"/>
+            <TableColumn fx:id="titleColumn" text="Title"/>
+            <TableColumn fx:id="statusColumn" text="Status"/>
+            <TableColumn fx:id="priorityColumn" text="Priority"/>
+            <TableColumn fx:id="assignedToColumn" text="Assigned To"/>
+            <TableColumn fx:id="createdAtColumn" text="Created"/>
+            <TableColumn fx:id="descriptionColumn" text="Description"/>
+
+        </columns>
+    </TableView>
+
+    <HBox styleClass="status-bar" spacing="10"
+          style="-fx-background-color: #f4f4f4; -fx-border-color: #ddd; -fx-border-width: 1 0 0 0;">
+        <padding>
+            <Insets top="5" right="5" bottom="5" left="5"/>
+        </padding>
+        <Label fx:id="saveIndicatorLabel" text="All Changes Saved"/>
+    </HBox>
+</VBox>

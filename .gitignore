@@ -1,0 +1,118 @@
+############################
+# Java & JVM
+############################
+*.class
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.jrs
+*.jss
+*.iml
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+############################
+# Maven / Gradle (safe defaults)
+############################
+target/
+build/
+out/
+.gradle/
+mvnw.cmd
+mvnw
+.settings/
+
+############################
+# JavaFX temporary files
+############################
+*/bin/
+*/generated/
+*/compile/
+
+############################
+# IntelliJ IDEA
+############################
+# Most of .idea should NOT be committed
+.idea/*
+
+# BUT allow project-wide settings:
+!.idea/codeStyles/
+!.idea/codeStyles/**
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/**
+!.idea/dictionaries/
+
+# IntelliJ plugin files that should never be committed
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/aws.xml
+
+# IntelliJ caches
+.idea/caches/
+.idea/compiler.xml
+.idea/iconProfiler/
+.idea/markdown-navigator.xml
+.idea/keymaps/
+
+############################
+# OS-specific files
+############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################
+# Logs & temp files
+############################
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+############################
+# JSON output files (keep your real data)
+############################
+# Ignore auto-generated or test-specific JSON
+tmp*.json
+testdata*.json
+
+# DO NOT ignore the actual ticket store:
+# tickets.json should be committed or excluded based on preference.
+# Uncomment the next line ONLY if you do NOT want tickets saved to Git:
+# tickets.json
+
+############################
+# Backup files
+############################
+*.bak
+*.old
+*.orig
+*.rej
+
+############################
+# JavaFX artifacts (debug/temp)
+############################
+.fxbuild/

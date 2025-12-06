@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" stylesheets="@styles.css"
+          fx:controller="com.tickettracking.TicketDialogController"
+          hgap="10" vgap="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Title:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="titleField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Description:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextArea fx:id="descriptionArea" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Priority:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <ComboBox fx:id="priorityComboBox" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Button fx:id="saveTicketButton" text="Save &amp; Close"
+        onAction="#handleSaveTicket" styleClass="button" />
+
+
+
+</GridPane>
+
