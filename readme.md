@@ -207,7 +207,7 @@ Backup & restore JSON
 **UI Improvements**
 Light/Dark mode
 
-Icons for status & priority
+Icons for status and priority
 
 Collapsible sidebar navigation
 
@@ -224,4 +224,4 @@ Collapsible sidebar navigation
 - Automated tests are unlikely to be added due to the complexity of the task, and the aging test suite - TestFX is outdated.
 - New JDK restrictions make automation of UI tests difficult.
 - It is recommended to use manual testing for UI interactions. 
-- Manual (human) tests are faster and more like
+- Manual (human) tests are faster and more likely to catch bugs. It's easy for a human to spot anomalies in the UI.
